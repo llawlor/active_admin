@@ -1,4 +1,7 @@
-// -------------------------------------- Admin Notes 
+@import "active_admin/mixins";
+@import "active_admin/mixins/variables";
+
+// -------------------------------------- Admin Notes
 .comments {
 
   .active_admin_comment {
@@ -38,3 +41,4 @@
     fieldset.buttons { padding: 0; margin-top: 5px;}
   }
 }
+
