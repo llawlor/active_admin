@@ -1,7 +1,9 @@
+@import "active_admin/mixins";
+
 .blank_slate_container {
   clear: both;
   text-align: center;
-  
+
   .blank_slate {
     @include rounded;
     -webkit-font-smoothing: antialiased;
@@ -12,7 +14,7 @@
     font-weight: bold;
     padding: 14px 25px;
     text-align: center;
-    
+
     small {
       display: block;
       font-size: 0.9em;
@@ -29,3 +31,4 @@
 .with_sidebar .blank_slate_container .blank_slate {
   margin-top: 80px;
 }
+

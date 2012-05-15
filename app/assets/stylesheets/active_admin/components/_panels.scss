@@ -1,6 +1,9 @@
+@import "active_admin/mixins";
+
 // ----------------------------------- Helper class to apply to elements to make them sections
 .section, .panel{ @include section; }
 
-// ----------------------------------- Sidebar Sections 
+// ----------------------------------- Sidebar Sections
 
 .sidebar_section { @include section; }
+

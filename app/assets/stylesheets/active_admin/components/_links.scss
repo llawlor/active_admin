@@ -1,5 +1,9 @@
+@import "active_admin/mixins";
+@import "active_admin/mixins/variables";
+
 a, a:link, a:visited {
   color: $link-color;
   text-decoration: underline;
 }
 a:hover { text-decoration: none; }
+

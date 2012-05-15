@@ -1,3 +1,5 @@
+@import "active_admin/mixins";
+
 td, p {
   @include icon(#B3BCC1, 0.8em);
   span.icon { margin: 0 3px; }
@@ -9,3 +11,4 @@ a.member_link {
 }
 
 a.button, a:link.button, a:visited.button, input[type=submit] { @include dark-button; }
+

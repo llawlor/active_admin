@@ -1,3 +1,6 @@
+@import "active_admin/mixins";
+@import "active_admin/mixins/variables";
+
 .status {
   background: darken($secondary-color, 15%);
   color: #fff;
@@ -10,3 +13,4 @@
   &.warn, &.warning, &.orange { background: #e29b20; }
   &.error, &.errored, &.red { background: #d45f53; }
 }
+
